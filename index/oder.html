@@ -1,0 +1,19 @@
+<!-- ===== ORDER POPUP ===== -->
+<div id="orderPopup" class="popup">
+    <div class="popup-content">
+        <h2>Place Your Order</h2>
+         <label>Choose Food:</label>
+        <select id="foodItem">
+            <option>Burger</option>
+            <option>Pizza</option>
+            <option>Sandwich</option>
+        </select>
+
+        <label>Quantity:</label>
+        <input type="number" id="quantity" value="1" min="1">
+
+        <br><br>
+        <button onclick="confirmOrder()">Confirm Order</button>
+        <button class="close-btn" onclick="closePopup()">Cancel</button>
+    </div>
+</div>
